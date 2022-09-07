@@ -7,6 +7,7 @@ Created on Wed Jul 27 13:38:46 2022
 
 def forward_difference(f, x, h):
     approx = (f(x+h) - f(x)) / h
+
     return approx
 
 
